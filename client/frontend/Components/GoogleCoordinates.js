@@ -4,11 +4,9 @@ import React, { useState, Component } from 'react';
 const API_KEY = process.env.API_KEY;
 
 const GoogleCoordinates = (props) => {
-  // const [place, setPlace] = useState(null);
   const { setPlace } = props;
   return (
     <div>
-      {/* {console.log('state', props.place)} */}
       <GoogleComponent
         apiKey={API_KEY}
         language="en"
